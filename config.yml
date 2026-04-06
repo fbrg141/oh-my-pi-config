@@ -1,0 +1,30 @@
+  enableSkillCommands: true
+  includeSkills:
+    - frontend-design
+    - superpowers:brainstorming
+    - superpowers:dispatching-parallel-agents
+    - superpowers:subagent-driven-development
+    - superpowers:writing-plans
+  ignoredSkills:
+    - react-doctor
+todo:
+  enabled: true
+  reminders: true
+todo.reminders.max: 3
+marketplace:
+  autoUpdate: notify
+disabledExtensions:
+  - skill:react-doctor
+  - skill:superpowers:executing-plans
+  - skill:superpowers:systematic-debugging
+  - skill:superpowers:test-driven-development
+  - skill:superpowers:verification-before-completion
+  - skill:superpowers:using-superpowers
+  - skill:superpowers:writing-skills
+  - skill:superpowers:using-git-worktrees
+  - skill:superpowers:finishing-a-development-branch
+  - skill:superpowers:receiving-code-review
+  - skill:superpowers:requesting-code-review
+task:
+  disabledAgents:
+    []
